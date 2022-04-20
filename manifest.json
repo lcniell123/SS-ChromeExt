@@ -1,0 +1,42 @@
+{
+    "name": "DMG ScreenShot Tool",
+    "version": "1.0",
+    "description": "-",
+   "background":{
+     "service_worker": "background.js",
+     "type": "module"
+   },
+   "permissions": ["storage", "activeTab", "scripting","tabs","storage","contextMenus","clipboardRead","clipboardWrite","webNavigation"],
+   "host_permissions": ["<all_urls>", "https://*/*","http://*/*", 
+      "https://*/*/*"],
+    "web_accessible_resources": [{
+    "resources": ["popup.js","images/*"],
+    "matches": ["<all_urls>"]
+    }],
+
+  
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {               
+        "16": "images/dmg-ss-logo.png",   
+        "24": "images/dmg-ss-logo.png",     
+        "32": "images/dmg-ss-logo.png"    
+      },
+      "icons": {"16": "images/dmg-ss-logo.png"}
+             
+    },
+   
+    
+    
+    
+
+    "content_scripts":[
+      {
+        "matches": ["<all_urls>"],
+        "js":["./third-party/jquery.js","./third-party/jsPdf.js","./third-party/raleway-bold.js","./third-party/draggableTouch.js"],
+        "css":["./third-party/jquery-ui.css", "./third-party/bootstrap.css"]
+      }
+    ]
+
+} 

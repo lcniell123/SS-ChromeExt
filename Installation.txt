@@ -1,0 +1,41 @@
+DMG ScreenShot Program - V 0.0.1
+
+
+
+Installation Steps 
+
+- Download folder from Team site 
+- Go to the puzzle icon in the Chrome Tab and press "Manage Extension"
+- Select "load Unpacked" on the left of the screen
+- Select the folder downloaded 
+- Go to the puzzle icon on the top again and select the pin beside "DMG Screenshot Program"
+- Select the Extension Icon 
+
+
+UI 
+
+Set Ratio - 
+makes the window a specific ratio that will help the final pdf look correct. 
+
+Mobile - 
+Makes the screen a mobile view off and on. 
+
+Display  
+- Select the type of add you are trying to take a screenshot of 
+
+Copy 
+- once you select a type from the Screenshot selection you can go to the image you want to copy in the browser, right click on it and "DMG Screenshot Program- Copy Display Image" in case Display is selected. Actions would vary depending on type selection 
+
+Paste 
+- After copying the image you can then go the the site you want that ad to be placed, right click and paste the add the same way you copied but this time selecting paste.
+
+Screenshot
+- Once you like how it looks, select "Screenshot". A tab will open with the screenshot you just took. Save that and keep going to the next screenshot. 
+
+Create PDF 
+- Once you have all the tabs you can then download all of them into a PDF. The order of the tabs will determine the order the PDF pages will have once exported 
+
+
+
+
+

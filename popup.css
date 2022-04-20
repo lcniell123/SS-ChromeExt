@@ -1,0 +1,155 @@
+/* 
+.row{
+    padding:10px 30px;
+} */
+
+body{
+    /* background-color:rgb(217 80 59); */
+    color:white;
+    margin:0px;
+    /* padding:10px; */
+    background-color:#efefef;
+}
+
+body h1{
+    color:white;
+}
+
+
+input{
+    width:100%;
+}
+
+label{
+    margin:0px;
+}
+button{
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    background: #393939;
+    color: white;
+    border-radius: 6px;
+    border: gray solid;
+}
+
+#allDimensions{
+    display:inline-block;
+}
+
+
+a{
+    color: #e0523f;
+    text-decoration: underline;
+}
+.heading h1{
+    background-color:rgb(36, 36, 36);
+    color: white;
+    margin: 0px;
+    font-size: 18px;
+    padding: 10px;
+    min-width: 200px;
+    text-align: center;
+    font-weight: 400;
+}
+.logo{
+    max-width:150px;
+    padding:0 20px;
+    margin:auto;
+}
+
+.mobileSelect{
+    background: #e1523f;
+    padding: 10px;
+}
+
+
+.setLogo{
+   
+   background:white;
+}
+
+.setType{
+    display:flex;
+    color:rgb(31, 31, 31);
+    position: relative;
+  
+}
+
+.setSnapPdf{
+    display:flex;
+    color:rgb(31, 31, 31);
+}
+
+
+
+
+.help{
+    color:rgb(31, 31, 31);
+    font-size:1em;
+    overflow: scroll;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    right:-15px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+ hr{
+     margin:0px;
+ }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1f7206;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1f7206;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
